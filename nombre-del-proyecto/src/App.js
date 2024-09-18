@@ -1,7 +1,7 @@
 import './App.css';
 import { useState } from 'react';
 
-// Definir el componente Texto con la primera letra en mayúscula
+
 const Texto = () => {
   return <p>Hola, puedes ocultarme</p>;
 }
@@ -10,7 +10,7 @@ function App() {
   const [isVisible, setIsVisible] = useState(true);
 
   const toggleButton = () => {
-    setIsVisible(!isVisible); // Alterna la visibilidad
+    setIsVisible(!isVisible); 
   };
 
   return (
